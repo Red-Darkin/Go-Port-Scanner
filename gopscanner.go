@@ -22,7 +22,7 @@ func scanPort(host string, port int, wg *sync.WaitGroup) {
         return 
     }
     conn.Close()
-    fmt.Printf("[*] Puerto %d abierto en %s\n", port, host)
+    fmt.Printf("[*] Port %d is open. %s:%d\n", port, host)
 }
 
 func portScan(host string, startPort, endPort int) {
@@ -38,7 +38,7 @@ func portScan(host string, startPort, endPort int) {
 
 func main() {
     if len(os.Args) < 4 {
-        fmt.Println("Uso: ./portscanner <host> <start_port> <end_port>")
+        fmt.Println("Usage: ./portscanner <host> <start_port> <end_port>")
         return
     }
 
