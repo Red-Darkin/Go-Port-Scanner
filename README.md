@@ -12,9 +12,14 @@ go build gopscanner.go
 
 ### Use Mode
 ```
-./gopscanner domain/IP start_port end_port
-e.g.
-./gopscanner hackerone.com 1 10000
+./gopscanner -host <host> -p <ports> (e.g., 80,443 or 1-1000)
 ```
-![imagen](https://github.com/Red-Darkin/Go-Port-Scanner/assets/62677201/6768c43f-a6dd-44bb-9666-9440d3a6d274)
+![imagen](https://github.com/Red-Darkin/Go-Port-Scanner/assets/62677201/5dd66e0b-3131-4efa-bb6b-fea03ad609c4)
+
+you can also pass a file with a list of hosts
+```
+./gopscanner -f file -p <ports> (e.g., 80,443 or 1-1000)
+```
+![imagen](https://github.com/Red-Darkin/Go-Port-Scanner/assets/62677201/bc28b519-bf15-48af-baf2-7b321ac0b21f)
+
 
