@@ -7,6 +7,8 @@ git clone https://github.com/Red-Darkin/Go-Port-Scanner.git
 cd /Go-Port-Scanner
 go build gopscanner.go
 ```
+![imagen](https://github.com/Red-Darkin/Go-Port-Scanner/assets/62677201/a9ff59ed-e359-48ef-8c89-5ffd7d6899f8)
+
 
 ### Use Mode
 ```
@@ -14,4 +16,5 @@ go build gopscanner.go
 e.g.
 ./gopscanner hackerone.com 1 10000
 ```
-![imagen](https://github.com/Red-Darkin/Go-Port-Scanner/assets/62677201/7c37e404-94c2-4adf-a4c6-1f8eda68bcf6)
+![imagen](https://github.com/Red-Darkin/Go-Port-Scanner/assets/62677201/6768c43f-a6dd-44bb-9666-9440d3a6d274)
+
