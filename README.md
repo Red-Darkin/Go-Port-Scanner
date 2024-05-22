@@ -1,5 +1,5 @@
 ### gopscanner
-A simple scan done in go to quickly scan a range of ports on an IP or domain.
+A simple scan performed in go to quickly scan a port range on an IP or domain using **TCP SYN** scan
 
 ### Downloading repo
 ```
