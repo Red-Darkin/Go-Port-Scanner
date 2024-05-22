@@ -22,4 +22,8 @@ you can also pass a file with a list of hosts
 ```
 ![imagen](https://github.com/Red-Darkin/Go-Port-Scanner/assets/62677201/bc28b519-bf15-48af-baf2-7b321ac0b21f)
 
-
+To use it with other tools, for example from projectDiscovery such as httpx, the following syntax can be used.
+```
+./gopscanner -f ../GoTest/file.txt -p 80-10000 | awk '{print $4}' | httpx --title
+```
+![imagen](https://github.com/Red-Darkin/Go-Port-Scanner/assets/62677201/aa92d170-b05c-4cfe-87c1-f1ad94987783)
